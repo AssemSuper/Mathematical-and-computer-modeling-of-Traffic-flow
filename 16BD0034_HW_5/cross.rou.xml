@@ -1,0 +1,24 @@
+<routes>
+        <vType id="typePassenger" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+        <vType id="typeBus" accel="0.8" decel="4.5" sigma="0.5" length="10" minGap="3" maxSpeed="25" guiShape="bus"/>
+
+        <route id="right-down" edges="2i 3o" />
+        <route id="left-left"  edges="2i 1o" />
+        <route id="down-left"  edges="4i 1o" />
+        <route id="down-right" edges="4i 2o" />
+        <route id="down-down"  edges="4i 3o" />
+    <vehicle id="0" type="typePassenger" route="down-down" depart="0" />
+    <vehicle id="1" type="typePassenger" route="down-down" depart="1" />
+    <vehicle id="2" type="typePassenger" route="down-down" depart="2" />
+    <vehicle id="3" type="typePassenger" route="down-left" depart="3" />
+    <vehicle id="4" type="typePassenger" route="down-down" depart="3" />
+    <vehicle id="5" type="typePassenger" route="down-down" depart="4" />
+    <vehicle id="6" type="typePassenger" route="down-down" depart="5" />
+    <vehicle id="7" type="typePassenger" route="down-down" depart="6" />
+    <vehicle id="8" type="typePassenger" route="down-down" depart="7" />
+    <vehicle id="9" type="typeBus" route="right-down" depart="8" />
+    <vehicle id="10" type="typePassenger" route="down-down" depart="8" />
+    <vehicle id="11" type="typePassenger" route="down-down" depart="9" />
+    <vehicle id="12" type="typeBus" route="right-down" depart="10" />
+    <vehicle id="13" type="typePassenger" route="down-down" depart="10" />
+    </routes>
